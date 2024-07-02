@@ -101,8 +101,8 @@ def create_workbook(path, inputfile, outputfile):
     # Iterate through the sheets
     for sheet in workbook.worksheets:
 
-        # Set some variables
         rowi = 1
+        # Set some variables
         coli = 1
         countOfRooms = len(roomList) + 1
         nextTime = startTime
